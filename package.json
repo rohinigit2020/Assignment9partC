@@ -1,0 +1,17 @@
+{
+  "name": "assigmnt9c",
+  "version": "1.0.0",
+  "description": "Assignment 9 and part c",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rohini",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1"
+  }
+}
