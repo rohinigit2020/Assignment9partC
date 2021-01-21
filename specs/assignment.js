@@ -11,7 +11,7 @@ describe("Tests on Name list",()=>{
     })
 
     it("Assert names list contains ‘Daniel’", ()=>{
-        assert.include(name,'Daniel',"Daniel name not included") 
+        assert.include(name,'Daniel',"Daniel name not included in name list") 
     })
 
     it("Filter Name that starts with ‘Jack’ and resultant list is of length 2",()=>{
