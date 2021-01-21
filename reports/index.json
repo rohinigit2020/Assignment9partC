@@ -1,0 +1,141 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-01-21T19:38:08.960Z",
+    "end": "2021-01-21T19:38:08.968Z",
+    "duration": 8,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "795f6e18-10eb-42a1-a126-a39654aae749",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "26f7cf68-c430-49f6-85ab-6478c04d62e6",
+          "title": "Tests on Name list",
+          "fullFile": "/Users/sreesanga/Desktop/assignment9partC/specs/assignment.js",
+          "file": "/specs/assignment.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Assert length of name list is 5",
+              "fullTitle": "Tests on Name list Assert length of name list is 5",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let len = name.length\nassert.equal(len,5,\"Length of list is not equal to 5\")",
+              "err": {},
+              "uuid": "600c4145-6493-4cf3-9a62-3c20cad7220d",
+              "parentUUID": "26f7cf68-c430-49f6-85ab-6478c04d62e6",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Assert names list contains ‘Rob’",
+              "fullTitle": "Tests on Name list Assert names list contains ‘Rob’",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.include(name,'Rob',\"Rob name not included\")",
+              "err": {},
+              "uuid": "8727611b-0caf-4780-9db2-f90d9b8a7183",
+              "parentUUID": "26f7cf68-c430-49f6-85ab-6478c04d62e6",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Filter Name that starts with ‘Jack’ and resultant list is of length 2",
+              "fullTitle": "Tests on Name list Filter Name that starts with ‘Jack’ and resultant list is of length 2",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let nameJack = name.filter(n => n.startsWith('Jack'))\nconsole.log(nameJack)\nlet jlen = nameJack.length\nassert.equal(jlen,2,\"number of names starting with jack are not 2\")",
+              "err": {},
+              "uuid": "c5bbcbbd-cab6-48d3-964a-ef509be79ec5",
+              "parentUUID": "26f7cf68-c430-49f6-85ab-6478c04d62e6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "600c4145-6493-4cf3-9a62-3c20cad7220d",
+            "8727611b-0caf-4780-9db2-f90d9b8a7183",
+            "c5bbcbbd-cab6-48d3-964a-ef509be79ec5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.2.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "index",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "reports",
+        "reportFilename": "index"
+      },
+      "version": "5.1.0"
+    }
+  }
+}
