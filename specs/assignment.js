@@ -10,8 +10,8 @@ describe("Tests on Name list",()=>{
         assert.equal(len,5,"Length of list is not equal to 5")
     })
 
-    it("Assert names list contains ‘Daniel’", ()=>{
-        assert.include(name,'Daniel',"Daniel name not included in name list") 
+    it("Assert names list contains ‘Rob’", ()=>{
+        assert.include(name,'Rob',"Rob name not included in name list") 
     })
 
     it("Filter Name that starts with ‘Jack’ and resultant list is of length 2",()=>{
